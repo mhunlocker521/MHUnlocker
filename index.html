@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phone Unlock Service</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f5f5f5; margin:0; }
+    header { background:#111; color:#fff; padding:20px; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    section { padding:30px; background:#fff; margin:20px; border-radius:8px; }
+    h2 { color:#222; }
+    input, select, textarea, button {
+      width:100%; padding:10px; margin:8px 0; border-radius:5px; border:1px solid #ccc;
+    }
+    button { background:#111; color:#fff; cursor:pointer; }
+    footer { text-align:center; padding:15px; color:#666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Phone Unlock Service</h1>
+  <p>Fast • Safe • Manual Unlock</p>
+  <nav>
+    <a href="#unlock">Unlock</a>
+    <a href="#how">How It Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="unlock">
+  <h2>Submit Unlock Request</h2>
+  <!-- Replace ACTION link with your Google Form / API later -->
+  <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="post" target="_blank">
+    <input type="text" name="entry.name" placeholder="Your Name" required />
+    <input type="email" name="entry.email" placeholder="Your Email" required />
+    <input type="text" name="entry.model" placeholder="Phone Model" required />
+    <input type="text" name="entry.imei" placeholder="IMEI Number" required />
+    <input type="text" name="entry.network" placeholder="Network" />
+    <input type="text" name="entry.country" placeholder="Country" />
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+<section id="how">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Submit your phone details</li>
+    <li>We manually process the unlock</li>
+    <li>You receive result by email</li>
+  </ol>
+  <p><strong>Note:</strong> We only unlock legally owned devices. No stolen or blacklisted phones.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: support@example.com</p>
+  <p>WhatsApp: +880XXXXXXXXXX</p>
+</section>
+
+<footer>
+  <p>© 2026 Phone Unlock Service. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
