@@ -25,86 +25,170 @@
   <nav>
     <a href="#unlock">Unlock</a>
     <a href="#how">How It Works</a>
+    <a href="#status">Order Status</a>
+    <a href="#payment">Payment</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section id="unlock">
   <h2>Submit Unlock Request</h2>
-  <!-- Replace ACTION link with your Google Form / API later -->
+  <p><strong>Please fill in all required details carefully.</strong><br>
+  Our team will manually process your unlock request and contact you via Email or WhatsApp.</p>
+
+  <!-- Google Form Connected -->
   <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="post" target="_blank">
-    <input type="text" name="entry.name" placeholder="User Name" required />
-    <input type="email" name="entry.email" placeholder="Email" required />
-    <input type="text" name="entry.model" placeholder="Phone Model" required />
-    <input type="text" name="entry.imei" placeholder="IMEI Number" required />
-    <input type="text" name="entry.Whatsapp Number" placeholder="Network" />
-    <input type="text" name="entry.country" placeholder="Country" />
-    <button type="submit">Submit Request</button>
+
+    <label>Full Name</label>
+    <small>Enter your real name</small>
+    <input type="text" name="entry.fullname" required />
+
+    <label>Email Address</label>
+    <small>Unlock result will be sent to this email</small>
+    <input type="email" name="entry.email" required />
+
+    <label>WhatsApp Number</label>
+    <small>Include country code (example: +880XXXXXXXXXX)</small>
+    <input type="text" name="entry.whatsapp" required />
+
+    <label>Phone Brand</label>
+    <select name="entry.brand" required>
+      <option value="">Select Brand</option>
+      <option>Samsung</option>
+      <option>iPhone</option>
+      <option>Xiaomi</option>
+      <option>Oppo</option>
+      <option>Vivo</option>
+      <option>Tecno</option>
+      <option>Infinix</option>
+      <option>Itel</option>
+      <option>Other</option>
+    </select>
+    <label>Service Type</label>
+    <select name="entry.type" required>
+      <option value="">Select Service Type</option>
+      <option>MDM</option>
+      <option>Anti Crack</option>
+      <option>FRP</option>
+      <option>Network Unlock</option>
+  
+   </select>
+
+    <label>Phone Model</label>
+    <small>Example: iPhone 13, Galaxy S21</small>
+    <input type="text" name="entry.model" required />
+
+    <label>IMEI Number</label>
+    <small>Dial *#06# to get your IMEI (15 digits)</small>
+    <input type="text" name="entry.imei" required />
+
+    <label>Network / Carrier</label>
+    <input type="text" name="entry.network" />
+
+    <label>Country</label>
+    <input type="text" name="entry.country" />
+
+    <label>Order Reference / Link</label>
+    <small>Upload Now photo ( postimage.org , ibb.cc / prnt.sc ) And Past In Box</small>
+    <input type="url" name="entry.link" />
+
+    <label>Additional Notes</label>
+    <textarea name="entry.notes" rows="4"></textarea>
+
+    <button type="submit">Submit Unlock Request</button>
   </form>
+
+  <p style="margin-top:15px; font-size:14px; color:#555;">
+    ⚠️ We only unlock legally owned devices. Stolen or blacklisted phones will be rejected.
+  </p>
 </section>
 
 <section id="how">
-  <h2>How It Works</h2>
+  <h2>How It Works & Pricing</h2>
+
+  <h3>How the Unlock Process Works</h3>
   <ol>
-    <li>$8.5 USD
+  <li>This Service is Manual So If delay your need wait 24-72 hours MAX 10-15 Days</li>
+
+Service Active
+
+ <li>TECNO INFINIX MDM UNLOCK Time 1-10 Day's Without Friday, Saturday, Sunday
+
+Server Work Monday To Friday So don’t Take saturday/Saunday Keep Time and Send Order</li>
 
 
-      This Service is Manual So If delay your need wait 24-72 hours MAX 10-15 Days
+  <li>Note: If order not done Please Report now 24 Hours if Over 24/48 Hours We no verify no refund
 
+For Refund Send Video and Wait Need 1-10 day Don’t Force faster verify </li>
 
-      Service Active
+ <li>Security Damage Phone Not Support - No Refund</li>
 
+<li>Don't submit Photo Link ( Mega/Mediafire/Files.fm ) if send this link i will reject just west time bad server
 
-      #4427 TECNO INFINIX MDM UNLOCK Time 1-10 Day's Without Friday, Saturday, Sunday
+Upload Now photo ( postimage.org , ibb.cc / prnt.sc )</li>
 
+<li>Service Need ,
 
-      Server Work Monday To Friday So don’t Take saturday/Saunday Keep Time and Send Order
+- IMEI
 
+- Lock Photo with IMEI including 
 
-      Note: If order not done Please Report now 24 Hours if Over 24/48 Hours We no verify no refund
+Please Upload Lock Phone like this -> https://i.postimg.cc/vHjDyn21/screenshot-13.png</li>
 
+<li>How to tecno mdm after done server☑️</li> 
 
-      For Refund Send Video and Wait Need 1-10 day Don’t Force faster verify 
+1.hard reset and connect WiFi 
 
+2.click device status and start 
 
-      Security Damage Phone Not Support - No Refund
+3.if can’t active then do flash 
 
-
-      Don't submit Photo Link ( Mega/Mediafire/Files.fm ) if send this link i will reject just west time bad server
-
-
-      Upload Now photo ( postimage.org , ibb.cc / prnt.sc )
-
-
-      Service Need ,
-
-
-      - IMEI
-
-
-      - Lock Photo with IMEI including 
-
-
-      Please Upload Lock Phone like this -> https://i.postimg.cc/vHjDyn21/screenshot-13.png
-
-
-      How to tecno mdm after done server☑️ 
-
-
-      1.hard reset and connect WiFi 
-
-
-      2.click device status and start 
-
-
-      3.if can’t active then do flash 
-
-
-      4.follow 1&2 number</li>
-    <li>Submit your phone details</li>
-    <li>We manually process the unlock</li>
-    <li>You receive result by Whatsapp</li>
+4.follow 1&2 number
+    <li>You submit your phone details using the unlock request form.</li>
+    <li>Our team reviews the information and checks device eligibility.</li>
+    <li>The unlock is processed manually or automatically (depending on service).</li>
+    <li>You receive the unlock result via Email or WhatsApp.</li>
   </ol>
+
+  <h3>Service Types</h3>
+  <ul>
+    <li><strong>Manual Unlock:</strong> Processed by our team. Suitable for most devices.</li>
+    <li><strong>Auto (API) Unlock:</strong> Instant processing (coming soon).</li>
+  </ul>
+
+  <h3>Service Pricing (Example)</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr style="background:#f0f0f0;">
+      <th style="border:1px solid #ccc; padding:8px;">Service</th>
+      <th style="border:1px solid #ccc; padding:8px;">Type</th>
+      <th style="border:1px solid #ccc; padding:8px;">Price</th>
+    </tr>
+     <tr>
+      <td style="border:1px solid #ccc; padding:8px;">Tecno/Infinix MDM</td>
+      <td style="border:1px solid #ccc; padding:8px;">Manual</td>
+      <td style="border:1px solid #ccc; padding:8px;">$10 – $30</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ccc; padding:8px;">Network Unlock</td>
+      <td style="border:1px solid #ccc; padding:8px;">Manual</td>
+      <td style="border:1px solid #ccc; padding:8px;">$10 – $30</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ccc; padding:8px;">iCloud Unlock</td>
+      <td style="border:1px solid #ccc; padding:8px;">Manual</td>
+      <td style="border:1px solid #ccc; padding:8px;">$20 – $80</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ccc; padding:8px;">FRP Unlock</td>
+      <td style="border:1px solid #ccc; padding:8px;">Manual / Auto</td>
+      <td style="border:1px solid #ccc; padding:8px;">$5 – $15</td>
+    </tr>
+  </table>
+
+  <p style="margin-top:15px; font-size:14px; color:#555;">
+    Prices may vary depending on phone model, network, and country.
+  </p>
+
   <p><strong>Note:</strong> We only unlock legally owned devices. No stolen or blacklisted phones.</p>
 </section>
 
@@ -112,6 +196,42 @@
   <h2>Contact Us</h2>
   <p>Email: support@example.com</p>
   <p>WhatsApp: +8801867686960</p>
+
+  <!-- WhatsApp Click Button -->
+  <a href="https://wa.me/8801867686960" target="_blank" style="display:inline-block; margin-top:10px; padding:12px 18px; background:#25D366; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">Chat on WhatsApp</a>
+</section>
+
+<section id="status">
+  <h2>Check Order Status</h2>
+  <p>Enter your Order ID to check current status of your unlock request.</p>
+
+  <!-- Manual Order Status (Google Sheet based) -->
+  <form>
+    <label>Order ID</label>
+    <input type="text" placeholder="Example: MHU-1025" />
+    <button type="button">Check Status</button>
+  </form>
+
+  <p style="font-size:14px; color:#555;">Status will be confirmed manually via Email or WhatsApp.</p>
+</section>
+
+<section id="payment">
+  <h2>Payment Methods</h2>
+
+  <h3>bKash</h3>
+  <p>Cash Out to: <strong>01867686960</strong><br>
+  Type: Agent<br>
+  Reference: Your Order ID</p>
+
+  <h3>Nagad</h3>
+  <p>Cash Out to: <strong>01867686960</strong><br>
+  Reference: Your Order ID</p>
+
+  <h3>Binance Pay</h3>
+  <p>Binance Pay ID :170937560 <strong><br>
+  Reference: Your Order ID</p>
+
+  <p style="font-size:14px; color:#555;">Payment must be completed after order submission.</p>
 </section>
 
 <footer>
